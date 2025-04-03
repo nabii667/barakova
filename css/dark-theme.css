@@ -1,0 +1,22 @@
+body.dark-theme {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+header.dark-theme {
+    background-color: #444;
+}
+
+footer.dark-theme {
+    background-color: #444;
+}
+
+button.dark-theme {
+    background-color: #444;
+    color: #fff;
+}
+
+.product-card.dark-theme {
+    background-color: #333;
+    color: #fff;
+}

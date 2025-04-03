@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Ноутбук HP Pavilion",
+      "price": 49999,
+      "image": "images/hp-pavilion.jpg",
+      "description": "Мощный ноутбук для работы и игр.",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 2,
+      "name": "Монитор Samsung 24\"",
+      "price": 18999,
+      "image": "images/samsung-monitor.jpg",
+      "description": "Монитор с высоким разрешением и яркими цветами.",
+      "category": "Мониторы"
+    }
+  ]
+  
