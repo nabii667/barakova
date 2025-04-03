@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Контактная информация</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="cart.html">Корзина</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Свяжитесь с нами</h2>
+      <p>Если у вас есть вопросы, напишите нам!</p>
+      <form id="contact-form">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Ваш Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Отправить сообщение</button>
+      </form>
+    </section>
+    <section>
+      <h2>Наши контакты</h2>
+      <p>Email: support@shop.com</p>
+      <p>Телефон: +7 800 555 35 35</p>
+      <p>Адрес: Москва, ул. Примерная, д. 1</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Магазин компьютеров</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
