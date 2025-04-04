@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #e6eee6;
+      color: #3e473e;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      background-color: #c7d8c2;
+      animation: fadeInDown 1s ease;
+    }
+    main {
+      max-width: 800px;
+      padding: 20px;
+      animation: fadeInUp 1s ease;
+    }
+    section {
+      background-color: #dbe5d3;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px rgba(100, 120, 100, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(100, 120, 100, 0.4);
+    }
+    h1, h2 {
+      color: #5c735c;
+    }
+    p {
+      line-height: 1.6;
+    }
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      background-color: #c7d8c2;
+      position: absolute;
+      bottom: 0;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>О нас</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Наша история</h2>
+      <p>Мы — команда энтузиастов, увлечённых технологиями и стремящихся сделать покупку компьютерной техники простой и приятной. Наш магазин был основан с целью предложить клиентам качественные продукты и удобный сервис.</p>
+    </section>
+    <section>
+      <h2>Наша миссия</h2>
+      <p>Мы стремимся обеспечить доступ к лучшим решениям в сфере компьютерных технологий. Мы ценим доверие наших клиентов и всегда готовы помочь с выбором.</p>
+    </section>
+    <section>
+      <h2>Контакты</h2>
+      <p>Email: support@compstore.kz<br>Телефон: +7 (777) 123-45-67<br>Адрес: г. Алматы, пр. Абая 10</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Магазин</p>
+  </footer>
+</body>
+</html>
 
