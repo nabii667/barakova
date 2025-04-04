@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <style>
     body {
-      background-color: #0d1b0d;
-      color: #a8e6a2;
+      background-color: #fdf6f0;
+      color: #5c5c5c;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -20,29 +20,59 @@
       width: 100%;
       text-align: center;
       padding: 20px 0;
-      background-color: #173f17;
+      background-color: #f2dede;
+      animation: fadeInDown 1s ease;
     }
     main {
       max-width: 800px;
       padding: 20px;
+      animation: fadeInUp 1s ease;
     }
     section {
-      background-color: #1f4d1f;
+      background-color: #fff0f5;
       padding: 15px;
       border-radius: 10px;
       margin-bottom: 15px;
-      box-shadow: 0 0 10px rgba(168, 230, 162, 0.1);
+      box-shadow: 0 0 10px rgba(200, 170, 170, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(200, 170, 170, 0.4);
     }
     h1, h2 {
-      color: #b2ffb2;
+      color: #a67c8c;
     }
     footer {
       width: 100%;
       text-align: center;
       padding: 10px;
-      background-color: #173f17;
+      background-color: #f2dede;
       position: absolute;
       bottom: 0;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
@@ -65,3 +95,4 @@
   </footer>
 </body>
 </html>
+
